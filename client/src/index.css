@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora&display=swap");
+
+body {
+    font-family: "Sora", sans-serif;
+}
+
+.item-button button {
+    margin-top: 20px;
+    width: 40px;
+    /* background-color: rgb(73, 73, 205); */
+    color: white;
+    justify-content: center;
+}
+
+.badge-hover:hover {
+    background-color: #ffc107;
+    border: none;
+}
+
+.spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+.spinner-border {
+    height: 50px;
+    width: 50px;
+}
+
+.category {
+    /* border: 2px solid gray; */
+    margin-right: 25px;
+    margin-bottom: 20px;
+    /* padding: 10px; */
+    cursor: pointer;
+}
+
+.category p {
+    font-size: 14px;
+}
+
+.category img {
+    margin-left: 10px;
+}
+
+/* .category-active {
+    border: 2px solid rgb(73, 73, 205);
+    background-color: rgba(128, 128, 128, 0.501);
+} */
+
+/* register page  */
+.register {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.register input {
+    width: 350px !important;
+}
+
+.register-form {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.register-form h1 {
+    text-align: center;
+    color: rgb(90, 88, 88);
+    padding: 10px;
+}
+
+.register-form h3 {
+    color: rgb(12, 12, 203);
+    text-align: center;
+}
